@@ -95,6 +95,25 @@ public class ConvertisseurRomainTest {
         assertThat(resultat).isEqualTo("MXLII");
     }
 
+    @Test
+    public void doitLancerExceptionPourZeroOuNegatif() {
+        ConvertisseurRomain convertisseur = new ConvertisseurRomain();
+        assertThatThrownBy(() -> convertisseur.convertir(0))
+            .isInstanceOf(IllegalArgumentException.class)
+            .hasMessage("Le nombre doit être compris entre 1 et 2000");
+        
+        assertThatThrownBy(() -> convertisseur.convertir(-1))
+            .isInstanceOf(IllegalArgumentException.class)
+            .hasMessage("Le nombre doit être compris entre 1 et 2000");
+    }
+
+    @Test
+    public void doitLancerExceptionPourNombreSuperieurA2000() {
+        ConvertisseurRomain convertisseur = new ConvertisseurRomain();
+        assertThatThrownBy(() -> convertisseur.convertir(3001))
+            .isInstanceOf(IllegalArgumentException.class)
+            .hasMessage("Le nombre doit être compris entre 1 et 2000");
+    }
 }
 
 
