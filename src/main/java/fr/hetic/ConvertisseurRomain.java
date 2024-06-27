@@ -4,7 +4,7 @@ public class ConvertisseurRomain {
 
     public String convertir(int nombre) {
         if (nombre <= 0 || nombre > 2000) {
-            throw new IllegalArgumentException("Le nombre doit être compris entre 1 et 2000 !");
+            throw new IllegalArgumentException("Le nombre doit être compris entre 1 et 2000");
         }
 
         StringBuilder resultat = new StringBuilder();

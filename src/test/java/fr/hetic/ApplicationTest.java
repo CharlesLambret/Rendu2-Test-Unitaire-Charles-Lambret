@@ -38,6 +38,6 @@ public class ApplicationTest {
     public void testConversionInvalide() {
         System.setIn(entreeInvalide);
         Application.main(new String[]{});
-        assertThat(sortie.toString()).contains("Le nombre doit être compris entre 1 et 3000");
+        assertThat(sortie.toString()).contains("Le nombre doit être compris entre 1 et 2000");
     }
 }
