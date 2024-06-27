@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: fr.hetic.ConvertisseurRomainTest
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.488 s <<< FAILURE! -- in fr.hetic.ConvertisseurRomainTest
-fr.hetic.ConvertisseurRomainTest.doitLancerExceptionPourNombreSuperieurA2000 -- Time elapsed: 0.038 s <<< FAILURE!
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.081 s <<< FAILURE! -- in fr.hetic.ConvertisseurRomainTest
+fr.hetic.ConvertisseurRomainTest.doitLancerExceptionPourNombreSuperieurA2000 -- Time elapsed: 0.032 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
 
 Expecting message to be:
@@ -97,7 +97,7 @@ java.lang.IllegalArgumentException: Le nombre doit être compris entre 1 et 3000
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-fr.hetic.ConvertisseurRomainTest.doitLancerExceptionPourZeroOuNegatif -- Time elapsed: 0.004 s <<< FAILURE!
+fr.hetic.ConvertisseurRomainTest.doitLancerExceptionPourZeroOuNegatif -- Time elapsed: 0.002 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
 
 Expecting message to be:

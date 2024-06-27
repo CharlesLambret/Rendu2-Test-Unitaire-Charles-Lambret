@@ -7,7 +7,7 @@ public class Application {
         Scanner scanner = new Scanner(System.in);
         ConvertisseurRomain convertisseur = new ConvertisseurRomain();
 
-        System.out.println("Entrez un nombre entre 1 et 3000 : ");
+        System.out.println("Entrez un nombre entre 1 et 2000 : ");
         int nombre = scanner.nextInt();
 
         try {
