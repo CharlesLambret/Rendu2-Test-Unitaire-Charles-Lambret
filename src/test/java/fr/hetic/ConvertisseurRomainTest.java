@@ -87,6 +87,14 @@ public class ConvertisseurRomainTest {
         String resultat = convertisseur.convertir(1000);
         assertThat(resultat).isEqualTo("M");
     }
+
+    @Test
+    public void doitConvertir1042EnMXLII() {
+        ConvertisseurRomain convertisseur = new ConvertisseurRomain();
+        String resultat = convertisseur.convertir(1042);
+        assertThat(resultat).isEqualTo("MXLII");
+    }
+
 }
 
 

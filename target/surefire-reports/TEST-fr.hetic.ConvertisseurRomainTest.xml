@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="fr.hetic.ConvertisseurRomainTest" time="0.115" tests="12" errors="0" skipped="0" failures="8">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="fr.hetic.ConvertisseurRomainTest" time="0.095" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\charl\AppData\Local\Temp\surefire4916391759318775142\surefirebooter-20240627154028247_3.jar C:\Users\charl\AppData\Local\Temp\surefire4916391759318775142 2024-06-27T15-40-28_114-jvmRun1 surefire-20240627154028247_1tmp surefire_0-20240627154028247_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\charl\AppData\Local\Temp\surefire8453860187081597526\surefirebooter-20240627154634662_3.jar C:\Users\charl\AppData\Local\Temp\surefire8453860187081597526 2024-06-27T15-46-34_543-jvmRun1 surefire-20240627154634662_1tmp surefire_0-20240627154634662_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\charl\Documents\Cours\HETIC A4\Test\Deuxième rendu\target\test-classes;C:\Users\charl\Documents\Cours\HETIC A4\Test\Deuxième rendu\target\classes;C:\Users\charl\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\charl\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\charl\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\charl\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\charl\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\charl\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\charl\.m2\repository\org\assertj\assertj-core\3.25.1\assertj-core-3.25.1.jar;C:\Users\charl\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\charl\AppData\Local\Temp\surefire4916391759318775142\surefirebooter-20240627154028247_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\charl\AppData\Local\Temp\surefire8453860187081597526\surefirebooter-20240627154634662_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS"/>
@@ -59,112 +59,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="doitConvertir13EnXIII" classname="fr.hetic.ConvertisseurRomainTest" time="0.064"/>
-  <testcase name="doitConvertir100EnC" classname="fr.hetic.ConvertisseurRomainTest" time="0.011">
-    <failure message="&#10;expected: &quot;C&quot;&#10; but was: &quot;XXXXXXXXXX&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-
-expected: "C"
- but was: "XXXXXXXXXX"
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at fr.hetic.ConvertisseurRomainTest.doitConvertir100EnC(ConvertisseurRomainTest.java:60)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-]]></failure>
-  </testcase>
-  <testcase name="doitConvertir40EnXL" classname="fr.hetic.ConvertisseurRomainTest" time="0.002">
-    <failure message="&#10;expected: &quot;XL&quot;&#10; but was: &quot;XXXX&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-
-expected: "XL"
- but was: "XXXX"
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at fr.hetic.ConvertisseurRomainTest.doitConvertir40EnXL(ConvertisseurRomainTest.java:39)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-]]></failure>
-  </testcase>
-  <testcase name="doitConvertir500EnD" classname="fr.hetic.ConvertisseurRomainTest" time="0.003">
-    <failure message="&#10;expected: &quot;D&quot;&#10; but was: &quot;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-
-expected: "D"
- but was: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at fr.hetic.ConvertisseurRomainTest.doitConvertir500EnD(ConvertisseurRomainTest.java:74)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-]]></failure>
-  </testcase>
-  <testcase name="doitConvertir90EnXC" classname="fr.hetic.ConvertisseurRomainTest" time="0.002">
-    <failure message="&#10;expected: &quot;XC&quot;&#10; but was: &quot;XXXXXXXXX&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-
-expected: "XC"
- but was: "XXXXXXXXX"
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at fr.hetic.ConvertisseurRomainTest.doitConvertir90EnXC(ConvertisseurRomainTest.java:53)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-]]></failure>
-  </testcase>
-  <testcase name="doitConvertir30EnXXX" classname="fr.hetic.ConvertisseurRomainTest" time="0.001"/>
-  <testcase name="doitConvertir400EnCD" classname="fr.hetic.ConvertisseurRomainTest" time="0.001">
-    <failure message="&#10;expected: &quot;CD&quot;&#10; but was: &quot;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-
-expected: "CD"
- but was: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at fr.hetic.ConvertisseurRomainTest.doitConvertir400EnCD(ConvertisseurRomainTest.java:67)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-]]></failure>
-  </testcase>
-  <testcase name="doitConvertir900EnCM" classname="fr.hetic.ConvertisseurRomainTest" time="0.0">
-    <failure message="&#10;expected: &quot;CM&quot;&#10; but was: &quot;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-
-expected: "CM"
- but was: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at fr.hetic.ConvertisseurRomainTest.doitConvertir900EnCM(ConvertisseurRomainTest.java:81)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-]]></failure>
-  </testcase>
-  <testcase name="doitConvertir1000EnM" classname="fr.hetic.ConvertisseurRomainTest" time="0.001">
-    <failure message="&#10;expected: &quot;M&quot;&#10; but was: &quot;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-
-expected: "M"
- but was: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at fr.hetic.ConvertisseurRomainTest.doitConvertir1000EnM(ConvertisseurRomainTest.java:88)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-]]></failure>
-  </testcase>
-  <testcase name="doitConvertir2EnII" classname="fr.hetic.ConvertisseurRomainTest" time="0.001"/>
-  <testcase name="doitConvertir50EnL" classname="fr.hetic.ConvertisseurRomainTest" time="0.001">
-    <failure message="&#10;expected: &quot;L&quot;&#10; but was: &quot;XXXXX&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-
-expected: "L"
- but was: "XXXXX"
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at fr.hetic.ConvertisseurRomainTest.doitConvertir50EnL(ConvertisseurRomainTest.java:46)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-]]></failure>
-  </testcase>
+  <testcase name="doitConvertir13EnXIII" classname="fr.hetic.ConvertisseurRomainTest" time="0.063"/>
+  <testcase name="doitConvertir100EnC" classname="fr.hetic.ConvertisseurRomainTest" time="0.0"/>
+  <testcase name="doitConvertir40EnXL" classname="fr.hetic.ConvertisseurRomainTest" time="0.0"/>
+  <testcase name="doitConvertir500EnD" classname="fr.hetic.ConvertisseurRomainTest" time="0.001"/>
+  <testcase name="doitConvertir90EnXC" classname="fr.hetic.ConvertisseurRomainTest" time="0.001"/>
+  <testcase name="doitConvertir30EnXXX" classname="fr.hetic.ConvertisseurRomainTest" time="0.0"/>
+  <testcase name="doitConvertir400EnCD" classname="fr.hetic.ConvertisseurRomainTest" time="0.001"/>
+  <testcase name="doitConvertir900EnCM" classname="fr.hetic.ConvertisseurRomainTest" time="0.002"/>
+  <testcase name="doitConvertir1042EnMXLII" classname="fr.hetic.ConvertisseurRomainTest" time="0.0"/>
+  <testcase name="doitConvertir1000EnM" classname="fr.hetic.ConvertisseurRomainTest" time="0.0"/>
+  <testcase name="doitConvertir2EnII" classname="fr.hetic.ConvertisseurRomainTest" time="0.0"/>
+  <testcase name="doitConvertir50EnL" classname="fr.hetic.ConvertisseurRomainTest" time="0.001"/>
   <testcase name="doitConvertir6EnVI" classname="fr.hetic.ConvertisseurRomainTest" time="0.001"/>
 </testsuite>
