@@ -3,9 +3,21 @@ package fr.hetic;
 public class ConvertisseurRomain {
 
     public String convertir(int nombre) {
-        if (nombre == 1) {
-            return "I";
+        StringBuilder resultat = new StringBuilder();
+
+        while (nombre >= 10) {
+            resultat.append("X");
+            nombre -= 10;
         }
-        return "";
+        while (nombre >= 5) {
+            resultat.append("V");
+            nombre -= 5;
+        }
+        while (nombre >= 1) {
+            resultat.append("I");
+            nombre -= 1;
+        }
+
+        return resultat.toString();
     }
 }
