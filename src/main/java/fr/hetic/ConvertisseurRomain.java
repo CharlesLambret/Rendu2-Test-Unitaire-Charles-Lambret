@@ -5,17 +5,14 @@ public class ConvertisseurRomain {
     public String convertir(int nombre) {
         StringBuilder resultat = new StringBuilder();
 
-        while (nombre >= 10) {
-            resultat.append("X");
-            nombre -= 10;
-        }
-        while (nombre >= 5) {
-            resultat.append("V");
-            nombre -= 5;
-        }
-        while (nombre >= 1) {
-            resultat.append("I");
-            nombre -= 1;
+        int[] valeurs = {10, 9, 5, 4, 1};
+        String[] symboles = {"X", "IX", "V", "IV", "I"};
+
+        for (int i = 0; i < valeurs.length; i++) {
+            while (nombre >= valeurs[i]) {
+                resultat.append(symboles[i]);
+                nombre -= valeurs[i];
+            }
         }
 
         return resultat.toString();
