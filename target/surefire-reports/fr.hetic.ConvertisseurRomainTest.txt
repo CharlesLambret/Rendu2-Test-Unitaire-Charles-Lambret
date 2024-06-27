@@ -1,18 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: fr.hetic.ConvertisseurRomainTest
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.081 s <<< FAILURE! -- in fr.hetic.ConvertisseurRomainTest
-fr.hetic.ConvertisseurRomainTest.doitLancerExceptionPourNombreSuperieurA2000 -- Time elapsed: 0.032 s <<< FAILURE!
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.089 s <<< FAILURE! -- in fr.hetic.ConvertisseurRomainTest
+fr.hetic.ConvertisseurRomainTest.doitLancerExceptionPourNombreSuperieurA2000 -- Time elapsed: 0.027 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
 
 Expecting message to be:
   "Le nombre doit être compris entre 1 et 2000"
 but was:
-  "Le nombre doit être compris entre 1 et 3000"
+  "Le nombre doit être compris entre 1 et 2000 !"
 
 Throwable that failed the check:
 
-java.lang.IllegalArgumentException: Le nombre doit être compris entre 1 et 3000
+java.lang.IllegalArgumentException: Le nombre doit être compris entre 1 et 2000 !
 	at fr.hetic.ConvertisseurRomain.convertir(ConvertisseurRomain.java:7)
 	at fr.hetic.ConvertisseurRomainTest.lambda$doitLancerExceptionPourNombreSuperieurA2000$2(ConvertisseurRomainTest.java:114)
 	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
@@ -97,17 +97,17 @@ java.lang.IllegalArgumentException: Le nombre doit être compris entre 1 et 3000
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-fr.hetic.ConvertisseurRomainTest.doitLancerExceptionPourZeroOuNegatif -- Time elapsed: 0.002 s <<< FAILURE!
+fr.hetic.ConvertisseurRomainTest.doitLancerExceptionPourZeroOuNegatif -- Time elapsed: 0.006 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
 
 Expecting message to be:
   "Le nombre doit être compris entre 1 et 2000"
 but was:
-  "Le nombre doit être compris entre 1 et 3000"
+  "Le nombre doit être compris entre 1 et 2000 !"
 
 Throwable that failed the check:
 
-java.lang.IllegalArgumentException: Le nombre doit être compris entre 1 et 3000
+java.lang.IllegalArgumentException: Le nombre doit être compris entre 1 et 2000 !
 	at fr.hetic.ConvertisseurRomain.convertir(ConvertisseurRomain.java:7)
 	at fr.hetic.ConvertisseurRomainTest.lambda$doitLancerExceptionPourZeroOuNegatif$0(ConvertisseurRomainTest.java:102)
 	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)

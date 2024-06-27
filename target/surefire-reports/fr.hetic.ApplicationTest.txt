@@ -1,4 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: fr.hetic.ApplicationTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.242 s -- in fr.hetic.ApplicationTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.269 s <<< FAILURE! -- in fr.hetic.ApplicationTest
+fr.hetic.ApplicationTest.testConversionInvalide -- Time elapsed: 0.218 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual:
+  "Entrez un nombre entre 1 et 2000 : 
+Le nombre doit être compris entre 1 et 2000 !
+"
+to contain:
+  "Le nombre doit être compris entre 1 et 3000" 
+	at fr.hetic.ApplicationTest.testConversionInvalide(ApplicationTest.java:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
