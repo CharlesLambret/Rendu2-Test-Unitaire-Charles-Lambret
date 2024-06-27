@@ -32,4 +32,61 @@ public class ConvertisseurRomainTest {
         String resultat = convertisseur.convertir(30);
         assertThat(resultat).isEqualTo("XXX");
     }
+    @Test
+    public void doitConvertir40EnXL() {
+        ConvertisseurRomain convertisseur = new ConvertisseurRomain();
+        String resultat = convertisseur.convertir(40);
+        assertThat(resultat).isEqualTo("XL");
+    }
+
+    @Test
+    public void doitConvertir50EnL() {
+        ConvertisseurRomain convertisseur = new ConvertisseurRomain();
+        String resultat = convertisseur.convertir(50);
+        assertThat(resultat).isEqualTo("L");
+    }
+
+    @Test
+    public void doitConvertir90EnXC() {
+        ConvertisseurRomain convertisseur = new ConvertisseurRomain();
+        String resultat = convertisseur.convertir(90);
+        assertThat(resultat).isEqualTo("XC");
+    }
+
+    @Test
+    public void doitConvertir100EnC() {
+        ConvertisseurRomain convertisseur = new ConvertisseurRomain();
+        String resultat = convertisseur.convertir(100);
+        assertThat(resultat).isEqualTo("C");
+    }
+
+    @Test
+    public void doitConvertir400EnCD() {
+        ConvertisseurRomain convertisseur = new ConvertisseurRomain();
+        String resultat = convertisseur.convertir(400);
+        assertThat(resultat).isEqualTo("CD");
+    }
+
+    @Test
+    public void doitConvertir500EnD() {
+        ConvertisseurRomain convertisseur = new ConvertisseurRomain();
+        String resultat = convertisseur.convertir(500);
+        assertThat(resultat).isEqualTo("D");
+    }
+
+    @Test
+    public void doitConvertir900EnCM() {
+        ConvertisseurRomain convertisseur = new ConvertisseurRomain();
+        String resultat = convertisseur.convertir(900);
+        assertThat(resultat).isEqualTo("CM");
+    }
+
+    @Test
+    public void doitConvertir1000EnM() {
+        ConvertisseurRomain convertisseur = new ConvertisseurRomain();
+        String resultat = convertisseur.convertir(1000);
+        assertThat(resultat).isEqualTo("M");
+    }
 }
+
+
